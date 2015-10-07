@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Fabio's SandBox</title>
+  <meta charset="UTF-8">
+  <script  src="../p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+	<!--<script src="../addons/p5.dom.js"></script>-->
+  <!--<script src="../addons/p5.sound.js"></script>-->
+  <script type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+  <section>
+      <article>
+      <h1>
+      This is the 1<sup>st</sup> section of this article</h1>
+      <p>
+      <q>I think we can all look forward to the time when these three theories are given equal time in our science classrooms across the country, and eventually the world; one third time for Intelligent Design, one third time for Flying Spaghetti Monsterism, and one third time for logical conjecture based on overwhelming observable evidence.	</q> -- Bobby Handerson
+      </p>
+      <p>The FSM is computer litterate and is commonly expressed invoked in computer codes as:</p>
+      <p><code>
+          var Him = rand("The FSM","HisNoodlelty","The FSM");<br>
+          var Username;<br>
+          function FSM(Him, Username) {<br>
+    return "May " + Him + "Be with " +  Username;              <br>
+}<br>
+          var Message = FSM(HisNoodleAppendage, Username);<br>
+          
+          
+          </code> </p>
+      <p>I like to quote from <cite>The Gospel of the Flying Spaghetti Monster</cite></p>
+<p>
+    </article>
+      <article>
+          <h1>My Mac really likes git</h1>
+      <pre><samp>Fabios-MacBook:~ fabio$ <kbd>git status</kbd>
+
+# On branch master
+nothing to commit (working directory clean)
+<b>But thanks for trying!</b>
+Fabios-MacBook:~ fabio$ </samp></pre>
+      
+          <P>Ruby Test</P>
+          <p>
+ <ruby>Fabio  <rp>(</rp><rt>name </rt><rp>)</rp> Ribeiro<rp>(</rp><rt> surname</rt><rp>)</rp></ruby>
+              </p>
+    
+      <p><p>So then the man saw Him, the FSM, and screamed:
+"there<wbr>is<wbr>no<wbr>way<wbr>you<wbr>are<wbr>ever<wbr>going<wbr>to<wbr>convince<wbr>me"!</p><p>but when he was touched by one of His noodly appendages, he realized the FSM was actually his Creator.</p>
+      
+      </article>
+            </section>  
+<section>
+      <article>
+    <header><h1>Playing with p5.js</h1></header>
+  
+          <script>
+function setup() {
+  createCanvas(640, 480);
+}
+
+function draw() {
+    
+    // quad(25,25,25,225,125,225,125,25)
+
+    
+        var Shades = 10;
+        var StartX = 0;
+        var StartY = 0;
+        var Width = 640/Shades;
+        var Height = 50;
+        var r = 255;
+        var b = 0;
+        var i = 255/Balls;
+    
+    for (l = 1; l <= Balls; l++) { 
+
+    var NewStartX = StartX * (l+1);
+    var NewEndX = NewStartX + 20;
+    // fill(r-l*i,0,b+l*i)
+
+    quad (NewStartX,0,NewEndX,0,NewEndX,50,NewStartX,50)
+    // quad(NewX,StartY,NewX + Width,StartY,NewX + Width,StartY + Height,NewX,StartY + Height)
+    
+    
+    }
+    
+
+}
+
+   </script> 
+    
+    
+    
+    
+    
+    
+    
+    </article>
+    </section>
+      <footer>
+    <small>Written by Fabio based on whatever he read somewhere about the <dfn><abbr title="Flying Spaguethi Monster">FSM</abbr></dfn> on <time datetime="2015-08-29T17:37Z">
+August 29th, 2015 at 17:37 Zulu
+</time></small>
+    <address>fabio@ribei.ro</address>
+</footer>
+</body>
+</html>
+
+
